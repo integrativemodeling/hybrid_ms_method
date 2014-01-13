@@ -46,18 +46,12 @@ Input Fields:
 •	XLInfo.txt: The input *.txt file contains information about the cross-linked peptides/segments. Below is an example of such an input file:
 No	Input File 	Chains
 (interacting)	1st Residue 
-Name	1st 
-Residue
-number	2nd
-Residue 
-Name	1st 
-Residue
-number
-1	1mty	db	LYS	113	LYS	65
-2	1mty	db	LYS	34	LYS	160
-3	1mty	db	LYS	22	LYS	295
-4	1mty	db	LYS	22	LYS	98
-5	1mty	db	LYS	225	LYS	40
+  Name	    1st Residue number	2nd Residue Name	
+1	1mty	db	LYS	113	            LYS	65
+2	1mty	db	LYS	34	            LYS	160
+3	1mty	db	LYS	22	            LYS	295
+4	1mty	db	LYS	22	            LYS	98
+5	1mty	db	LYS	225	            LYS	40
 
 
 Output:
@@ -85,3 +79,5 @@ Publications:
 •	Alber, F.; Dokudovskaya, S.; Veenhoff, L. M.; Zhang, W.; Kipper, J.; Devos, D.; Suprapto, A.; Karni-Schmidt, O.; Williams, R.; Chait, B. T.; Rout, M. P.; Sali, A. Nature 2007, 450, 683-94.
 •	Mesleh, M. F.; Hunter, J. M.; Shvartsburg, A. A.; Schatz, G. C.; Jarrold, M. F. J. Phys. Chem 1996, 100, 16082-16086.
 •	Shvartsburg, A. A.; Jarrold, M. F. Chem. Phys. Lett. 1996, 261, 86-91.
+
+
