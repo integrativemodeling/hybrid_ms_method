@@ -54,15 +54,16 @@ To evaluate the violation of cross-linking restraints, the scoringXlinks.py scri
 Usage: python scoringXlinks.py  XLinfo.txt CutoffDistance
 
 Input Fields:
-•	XLInfo.txt: The input *.txt file contains information about the cross-linked peptides/segments. Below is an example of such an input file:
-No	Input File 	Chains
-(interacting)	1st Residue 
-  Name	    1st Residue number	2nd Residue Name	
-1	1mty	db	LYS	113	            LYS	65
-2	1mty	db	LYS	34	            LYS	160
-3	1mty	db	LYS	22	            LYS	295
-4	1mty	db	LYS	22	            LYS	98
-5	1mty	db	LYS	225	            LYS	40
+
+•	XLInfo.txt: The input *.txt file contains information about the cross-linked peptides/segments. 
+Below is an example of such an input file:
+
+No	Input File Name 1st Residue number	2nd Residue Name	
+1	  1mty	db					LYS	113	            LYS	65
+2		1mty	db					LYS	34	            LYS	160
+3		1mty	db					LYS	22	            LYS	295
+4		1mty	db					LYS	22	            LYS	98
+5		1mty	db					LYS	225	            LYS	40
 
 
 Output:
@@ -74,8 +75,11 @@ CSV Format:
 Collision Cross Section Calculations
 The CCS values for each candidate structure are calculated by calling the mobcal code (“mobcal_cg”) from a python script. This script reads an *.mfj type of file and iterates over all the input structures by printint the projection approximation (PA) value for each of them in a *.csv type of file.  
 Usage: python mobcal.py *.mfj
+
 Output (CSV Format):
+
 •	Model number: Number of solution structure.
+
 •	PA value: Calculated CCS from PA method in Å2
 
 Info
