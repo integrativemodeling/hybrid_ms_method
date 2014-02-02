@@ -20,8 +20,11 @@ Input Fields:
 •	Number of models to be generated: the number of model to generate as an output. A value of 10,000 models is recommended
 
 Optional Input Fields (Optimization runs):
+
 •	number_of_monte_carlo_steps:  Specify the number of Monte Carlo steps to take for each optimization step.
+
 •	number_of_conjugate_gradient_steps: Specify the number of conjugated gradient optimization steps (default number:100)
+
 •	Clustering: Specify the number of clusters to be generated and the number iterations. A k-means clustering approach is followed for generation of the clusters. Overall, more iterations produce better clusters.
 
 Output:
@@ -31,8 +34,11 @@ CSV Format:
 •	Score: MS connectivity restraint. The produced score for each solution generated is calculated using the Minimal Spanning Tree (MST) algorithm
 
 Usage:  To run the sampling script takes three arguments:
+
 Arg1: First Coordinate File (coordinateFileA)
+
 Arg1: Second Coordinate File (coordinateFileB)
+
 Arg3: number of models to generate (NumberModels)
 
 usage: python sampling.py  CoordinateFileA  CoordinateFileB  NumberModels
