@@ -83,9 +83,13 @@ Last known good IMP version: XXXX
 Testable: Yes.
 Parallelizeable: No
 Publications:
+
 •	Hall Z, Politis A, Robinson CV. [Structural modeling of heteromeric protein complexes from disassembly pathways and ion mobility-mass spectrometry] Structure 20, 1-14, 2012.
-•	Politis A, Park AY, Hall Z, Ruotolo BT, Robinson CV.[Integrative modelling coupled with ion mobility mass spectrometry reveals structural features of the clamp loader in complex with single-stranded DNA binding protein] Journal of Molecular Biology 425, 4790-4801, 2013. 
+
+•	Politis A, Park AY, Hall Z, Ruotolo BT, Robinson CV.[Integrative modelling coupled with ion mobility mass spectrometry reveals structural features of the clamp loader in complex with single-stranded DNA binding protein] Journal of Molecular Biology 425, 4790-4801, 2013.
+
 •	Alber, F.; Dokudovskaya, S.; Veenhoff, L. M.; Zhang, W.; Kipper, J.; Devos, D.; Suprapto, A.; Karni-Schmidt, O.; Williams, R.; Chait, B. T.; Rout, M. P.; Sali, A. Nature 2007, 450, 683-94.
+
 •	Mesleh, M. F.; Hunter, J. M.; Shvartsburg, A. A.; Schatz, G. C.; Jarrold, M. F. J. Phys. Chem 1996, 100, 16082-16086.
 •	Shvartsburg, A. A.; Jarrold, M. F. Chem. Phys. Lett. 1996, 261, 86-91.
 
