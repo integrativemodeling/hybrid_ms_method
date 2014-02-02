@@ -65,15 +65,15 @@ Input Fields:
 Below is an example of such an input file:
 
 No	Input File Name 1st Residue number	2nd Residue Name	
-1	  1mty	db					LYS	113	            LYS	65
+1	  	1mty		db					LYS	113	            LYS	65
 
-2		1mty	db					LYS	34	            LYS	160
+2			1mty		db					LYS	34	            LYS	160
 
-3		1mty	db					LYS	22	            LYS	295
+3			1mty		db					LYS	22	            LYS	295
 
-4		1mty	db					LYS	22	            LYS	98
+4			1mty		db					LYS	22	            LYS	98
 
-5		1mty	db					LYS	225	            LYS	40
+5			1mty		db					LYS	225	            LYS	40
 
 
 Output:
