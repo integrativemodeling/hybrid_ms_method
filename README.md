@@ -1,7 +1,7 @@
 Software Documentation
 https://github.com/integrativemodeling/hybrid_ms_method
 
-Author: Argyris Politis 
+Author: Argyris Politis,
 email: argyris.politis@kcl.ac.uk
 
 STEPS
